@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>现代艺术</title>
+    <style>
+    body {
+            background:#1B54F2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', 'Poppins', system-ui, sans-serif;
+            margin: 0;
+            padding: 20px;
+        } 
+    /*下划线*/
+   .underline-text{
+            text-decoration: underline;                    
+            text-decoration-color: red;                    
+            text-decoration-style: wavy;                   /* 样式：solid(实线) / double(双线) / dotted(点线) / dashed(虚线) / wavy(波浪线) */
+            text-decoration-thickness: 2px;                
+        }
+    /*渐变*/
+   .gradient-text {
+            background: linear-gradient(135deg, #ff6b6b, #f06595);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+        }
+     /*阴影*/
+    .shadow-text {
+            color: #ffcc00;
+            text-shadow: 2px 2px 0 #b34b00;
+            font-style: italic;
+        }
+     /*描边*/
+    .stroke-text {
+            color: transparent;
+            -webkit-text-stroke: 1px #00aaff;
+            text-stroke: 1px #00aaff;
+        }
+     /*倾斜*/
+    .italic-text{
+      frontstyle:italic；
+      front-size:4rem;
+      color:#00E079;
+      text-stroke: 1px #00aaff;
+    }
+    .normal-text {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p>
+      <span class="underline-text" >我</span>
+      <span class="gradient-text" >已经</span><br>
+      <span class="shadow-text" >完全</span>
+      <span class="stroke-text" >学会了</span><br>
+      <span class="italic-text" >设计</span>
+    </p>
+</body>
+</html>
