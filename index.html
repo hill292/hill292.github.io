@@ -1,7 +1,43 @@
 <!DOCTYPE html>
+<html lang="zn-CN">
 <html>
+<meta charset="UTF-8">
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: system-ui;
+    }
+    .btn{  
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        text-decoration: none;
+        padding: 14px 28px;
+        border-radius: 40px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: all 0.25s;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        background: linear-gradient(135deg, #5a67d8, #6b46a0);
+    }
+    .btn:active {
+        transform: scale(0.98);
+    }
+    </style>
 <body>
-    <h1>*你来到了一片荒芜之地</h1>
-    <p>*白屏时光增加了你的决心</p>
+    <P>
+    *你来到了一片荒芜之地<br>
+    *白屏时光增加了你的决心
+    </p>
+    <p><a href="art.html" class="btn">*看点好看的</a></p>
 </body>
 </html>
